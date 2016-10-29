@@ -1,0 +1,23 @@
+.full-width{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: #111;
+    text-align: center;
+}
+img {
+    width: 100%;
+    vertical-align: top;
+}
+h2.title{
+    text-align: center;
+    height: 300px;
+    line-height: 300px;
+}
+.clearfix::after{
+    content:"";
+    display: block;
+    clear:both;
+}
