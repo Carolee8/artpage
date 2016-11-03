@@ -49,6 +49,7 @@
 /*        background-image: url(flower01.jpg);*/
 /*        background-size: cover;*/
         background-position: center;
+        margin-bottom: 20px;
     }
     #about p {
         margin-bottom: 20px;
