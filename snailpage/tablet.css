@@ -52,9 +52,9 @@
         line-height: 78px;
     }
     header {
-        height: 600px;
-        background-image: url(flower01.jpg);
-        background-size: cover;
+        height: 400px;
+/*        background-image: url(flower01.jpg);*/
+/*        background-size: cover;*/
         background-position: center;
     }
     #about p {

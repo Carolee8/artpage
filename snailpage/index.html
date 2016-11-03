@@ -12,7 +12,22 @@
     <link rel="stylesheet" href="pc.css">
     <link rel="stylesheet" href="tablet.css">
     <link rel="stylesheet" href="phone.css">
+    <link href="jquery.bxslider.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.5/jquery.bxslider.min.js">
+    </script>
     <script src="https://use.fontawesome.com/be7691cd70.js"></script>
+    <script>
+         $(document).ready(function(){
+             $(".bxSlider").bxSlider({
+                 mode:"fade",
+                 speed:1000,
+                 auto:true,
+                 captions:true,
+                 pause:3000
+             });
+         })
+    </script>
 </head>
 <body>
     <nav class="full-width">
@@ -29,7 +44,16 @@
             </div>
         </div>
     </nav>
-    <header class="full-width"></header>
+<!--    <header class="full-width"></header>-->
+    <header class="full-width">
+       <ul class="bxSlider">
+        <li><img src="flower01.jpg" alt=""></li>
+        <li><img src="flower03.jpg" alt=""></li>
+        <li><img src="flower04.jpg" alt=""></li>
+        <li><img src="flower05.jpg" alt=""></li>
+        <li><img src="flower06.jpg" alt=""></li>
+    </ul>
+    </header>
     <div class="full-width clearfix" id="about">
         <div class="fixed-width clearfix">
             <h2 class="title">ABOUT ME</h2>

@@ -56,9 +56,9 @@
         background-color: #c7d7f7;
     }
     header {
-        height: 829px;
-        background-image: url(flower01.jpg);
-        background-size: cover;
+/*        height: 820px;*/
+/*        background-image: url(flower01.jpg);*/
+/*        background-size: cover;*/
         background-position: center;
     }
     #about p {
