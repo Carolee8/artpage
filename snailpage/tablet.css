@@ -55,8 +55,12 @@
 /*        height: 400px;*/
 /*        background-image: url(flower01.jpg);*/
 /*        background-size: cover;*/
-        background-position: center;
+/*        background-position: center;*/
         margin-bottom: 30px;
+    }
+    .bxSlider{
+        margin: 0;
+        padding: 0;
     }
     #about p {
         margin-bottom: 20px;

@@ -56,10 +56,15 @@
         background-color: #c7d7f7;
     }
     header {
+        margin: auto;
 /*        height: 820px;*/
 /*        background-image: url(flower01.jpg);*/
 /*        background-size: cover;*/
-        background-position: center;
+/*        background-position: center;*/
+    }
+    .bxSlider{
+        margin: 0;
+        padding: 0;
     }
     #about p {
         margin-bottom: 20px;
